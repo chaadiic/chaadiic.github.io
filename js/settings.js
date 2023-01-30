@@ -6,7 +6,7 @@ const collectionInfo = {
         instagram: "",
     },
     eprice: 0,
-    nprice: 0.01,
+    nprice: 0,
     nfts:  100,
     spots: 89,
     logo: "https://cdn.discordapp.com/icons/897718057596747816/98abbd15eb7410a09d059401e6f97371.webp?size=64",
