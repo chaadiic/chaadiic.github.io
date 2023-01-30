@@ -11,7 +11,7 @@ const collectionInfo = {
     spots: 89,
     logo: "https://cdn.discordapp.com/icons/897718057596747816/98abbd15eb7410a09d059401e6f97371.webp?size=64",
     backgroundImage: "https://cdn.discordapp.com/splashes/897718057596747816/3a5012084c6101418071d684c233270d.jpg?size=2048",
-    address: "0xa5FA5D90CE4E1C41EA0DA1D116Ba6d3b270A12bF",
+    address: "0x48D62319Bba6339A01fd5Ffe71061daf59e25a47",
 }
 
 const signMessage = `Welcome, \n\n` +
